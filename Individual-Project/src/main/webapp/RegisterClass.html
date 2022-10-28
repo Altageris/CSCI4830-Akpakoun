@@ -1,0 +1,72 @@
+<html>
+<head>
+<style>
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:150px;
+    float:left;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
+</style>
+</head>
+
+<body>
+<header>
+<h1> Insert Data </h1>
+</header>
+
+<nav>
+<a href= "/Individual-Project/AllStudents">All Students</a> <br>
+<a href= "/Individual-Project/StudentSearch.html">Student Search</a> <br>
+</nav>
+
+<section>
+	<h1>Class Register</h1>
+	
+	<form action="RegisterClass" method="POST">
+	
+		Enter Student Id: <input type="text" name="studentId"> <br />
+		Choose a class: <select  name="courseId">
+		<option value= "CSCI 1204" >CSCI 1204  COMPUTER SCIENCE PRINCIPLES LABORATORY</option>
+		<option value= "CSCI 1280" >CSCI 1280  INTRODUCTION TO COMPUTATIONAL SCIENCE</option>
+		<option value= "CSCI 1620" >CSCI 1620  INTRODUCTION TO COMPUTER SCIENCE II </option>
+		<option value= "CSCI 2030" >CSCI 2030  MATHEMATICAL FOUNDATIONS OF COMPUTER SCIENCE</option>
+		<option value= "CSCI 2240" >CSCI 2240  INTRODUCTION TO C PROGRAMMING</option>
+		<option value= "CSCI 2410" >CSCI 2410  INTRODUCTION TO DATA ANALYTICS USING PYTHON</option>
+		<option value= "CSCI 2510" >CSCI 2510  INTRODUCTION TO GAME PROGRAMMING</option>
+		<option value= "CSCI 2620" >CSCI 2620  2D GRAPHICS: IMAGE PROCESSING</option>
+		<option value= "CSCI 2830" >CSCI 2830  OBJECT-ORIENTED SOFTWARE ENGINEERING FUNDAMENTALS</option>
+		<option value= "CSCI 2840" >CSCI 2840  C++ & OBJECT-ORIENTED PROGRAMMING </option>
+		
+		</select> <br />
+		
+		<input type="submit" value="Submit" />
+	</form>
+
+</section>
+
+<footer>
+Copyright
+</footer>
+</body>
+</html>
